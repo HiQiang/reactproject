@@ -4,3 +4,6 @@
 #myapp{
     background: blue;
 }
+.hidden{
+    display: none;
+}

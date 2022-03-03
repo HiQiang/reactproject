@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
-import App from './01-base/12-卖座选项卡'
+import App from './01-base/20-受控的'
 
 ReactDom.render(<App/>, document.getElementById("root"));
 

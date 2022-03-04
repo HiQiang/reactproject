@@ -1,0 +1,9 @@
+.active{
+    background: green;
+}
+#myapp{
+    background: blue;
+}
+.hidden{
+    display: none;
+}

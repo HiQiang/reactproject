@@ -19,11 +19,17 @@ class App
                     })
                 }}/>
                 <button onClick={() => {
+                    console.log(this.state.username)
 
 
                 }}>登录
                 </button>
                 <button onClick={() => {
+                    this.setState(
+                        {
+                            username:""
+                        }
+                    )
 
 
                 }}>重置

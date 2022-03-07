@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
-import App from './02-advanced/08-订阅发布模式案列'
+import App from './02-advanced/21-新生命周期-1-案例'
 
 ReactDom.render(<App/>, document.getElementById("root"));
 

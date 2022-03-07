@@ -9,7 +9,7 @@ class App extends Component {
         super();
         this.state = {
             filmList: [],
-            info:""
+            info: ""
         }
         // axios({
         //     url: "https://m.maizuo.com/gateway?cityId=110100&pageNum=1&pageSize=10&type=1&k=5522254",
@@ -27,6 +27,10 @@ class App extends Component {
         //     )
         // })
 
+
+    }
+
+    componentDidMount() {
         axios.get(`/test.json`).then(res => {
             // console.log(res.data.data.films)
             this.setState(
@@ -47,7 +51,7 @@ class App extends Component {
                         <FilmItem key={item.filmId} {...item} onEvent={(value) => {
                             // console.log("父组件接收", value)
                             this.setState({
-                                info:value
+                                info: value
                             })
 
                         }}></FilmItem>)
